@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<h2>💻 TechStore</h2>
+</div>
+
+<nav>
+
+<a href="#">Inicio</a>
+<a href="#productos">Productos</a>
+<a href="#ofertas">Ofertas</a>
+<a href="#contacto">Contacto</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="contenido">
+
+<h1>La mejor tecnología al mejor precio</h1>
+
+<p>Computadoras, celulares, accesorios, componentes y mucho más.</p>
+
+<a href="#productos" class="btn">Ver Productos</a>
+
+</div>
+
+</section>
+
+<section id="productos">
+
+<h2 class="titulo">Productos Destacados</h2>
+
+<div class="productos">
+
+<div class="card">
+
+<img src="img/producto1.jpg">
+
+<h3>Laptop Gamer</h3>
+
+<p>Procesador Intel i7 - 16GB RAM - SSD 512GB</p>
+
+<span>$1299</span>
+
+<button>Comprar</button>
+
+</div>
+
+<div class="card">
+
+<img src="img/producto2.jpg">
+
+<h3>Smartphone</h3>
+
+<p>Pantalla AMOLED 120Hz</p>
+
+<span>$799</span>
+
+<button>Comprar</button>
+
+</div>
+
+<div class="card">
+
+<img src="img/producto3.jpg">
+
+<h3>Auriculares RGB</h3>
+
+<p>Sonido envolvente</p>
+
+<span>$89</span>
+
+<button>Comprar</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="banner">
+
+<h2>Envíos a todo el país</h2>
+
+<p>Entrega rápida y garantía oficial.</p>
+
+</section>
+
+<footer id="contacto">
+
+<h3>TechStore</h3>
+
+<p>Correo: contacto@techstore.com</p>
+
+<p>WhatsApp: +54 11 1234-5678</p>
+
+<p>© 2026 Todos los derechos reservados.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
